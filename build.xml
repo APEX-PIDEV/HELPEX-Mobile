@@ -5,8 +5,8 @@
     To learn more about Codename One go to https://www.codenameone.com/
     -->
         
-    <project name="pidev" default="default" basedir=".">
-    <description>Builds, tests, and runs the project pidev.</description>
+    <project name="formationpi3" default="default" basedir=".">
+    <description>Builds, tests, and runs the project formationpi3.</description>
     <import file="nbproject/build-impl.xml"/>
     <property file="codenameone_settings.properties"/>
     <property name="automated" value="false" />

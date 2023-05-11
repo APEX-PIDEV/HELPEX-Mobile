@@ -11,9 +11,5 @@ package com.mycompany.myapp.utils;
  */
 public class Statics {
     //public static final String BASE_URL="https://workshopparsingjsoncn1back-production.up.railway.app/task/";
-    
-    //////////////////////////////////Tasks//////////////////////////////////////
-    public static final String BASE_URL_Tasks="http://127.0.0.1:8000/tasks/";
-        public static final String BASE_URL_Item="http://127.0.0.1:8000/item/";
-
+    public static final String BASE_URL="http://127.0.0.1:8000/";
 }
