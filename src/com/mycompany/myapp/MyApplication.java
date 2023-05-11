@@ -30,6 +30,8 @@ import com.codename1.ui.Toolbar;
 import java.io.IOException;
 import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.io.NetworkEvent;
+import com.mycompany.myapp.gui.AjoutCentreForm;
+import com.mycompany.myapp.gui.ListFormationForm;
 import com.mycompany.myapp.gui.LoginForm;
 import com.mycompany.myapp.gui.ProfileForm;
 import com.mycompany.myapp.gui.StatsForm;
@@ -42,11 +44,14 @@ public class MyApplication {
 
     private Form current;
     private Resources theme;
+        private Resources themeeya;
+
 
     public void init(Object context) {
         // use two network threads instead of one
         updateNetworkThreadCount(2);
 
+        themeeya = UIManager.initFirstTheme("/themeya");
         theme = UIManager.initFirstTheme("/theme");
 
         // Enable Toolbar on all Forms by default
@@ -69,7 +74,9 @@ public class MyApplication {
     public void start() {
        // new LoginForm(theme).show();
       // new StatsForm(theme).show();
-        new ProfileForm(theme).show();
+        new ProfileForm(UIManager.initFirstTheme("/themeya")).show();
+          // new AjoutCentreForm(theme).show();
+     //   new ListFormationForm(theme).show();
     }
 
     public void stop() {

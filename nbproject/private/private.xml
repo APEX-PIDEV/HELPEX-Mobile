@@ -4,21 +4,29 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/MyApplication.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/WalkthruForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/AddTaskForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/utils/Statics.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/LoginForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/MSUIKit.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/services/ItemService.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/tasksForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/entities/Tasks.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/services/ServiceTask.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/ProfileForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/SideMenuBaseForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/AddItemForm.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/infoTask.java</file>
-            <file>file:/D:/EYA/Esprit_semestre_2/mobile/pidev/pidev/src/com/mycompany/myapp/gui/EditItemForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/NewsfeedForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/services/ServiceFormation.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/Graphics.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/StatistiquePieForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/ListFormationForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/ModifierCentreForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/tasksForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/SideMenuBaseForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/ModifierFormationForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/ListCentreForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/ProfileForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/entities/Centre.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/MapForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/services/ServiceTask.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/MyApplication.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/AjouterFormationForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/utils/Statics.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/BaseFormahmed.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/AjoutCentreForm.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/CleanModern.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/gui/WalkthruForm1.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/entities/Formation.java</file>
+            <file>file:/C:/Users/ASUS/OneDrive/Documents/3A35/apex_pidev/integration/HELPEX-Mobile-main/src/com/mycompany/myapp/services/ServiceCentre.java</file>
         </group>
     </open-files>
 </project-private>

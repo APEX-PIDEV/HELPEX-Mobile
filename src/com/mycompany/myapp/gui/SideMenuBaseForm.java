@@ -25,6 +25,7 @@ import com.codename1.ui.Image;
 import com.codename1.ui.Label;
 import com.codename1.ui.layouts.BorderLayout;
 import com.codename1.ui.layouts.Layout;
+import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
 
 /**
@@ -32,6 +33,7 @@ import com.codename1.ui.util.Resources;
  *
  * @author Shai Almog
  */
+
 public abstract class SideMenuBaseForm extends Form {
 
     public SideMenuBaseForm(String title, Layout contentPaneLayout) {
@@ -48,7 +50,7 @@ public abstract class SideMenuBaseForm extends Form {
     public SideMenuBaseForm(Layout contentPaneLayout) {
         super(contentPaneLayout);
     }
-    
+ 
     public void setupSideMenu(Resources res) {
         Image profilePic = res.getImage("user-picture.jpg");
         Image mask = res.getImage("round-mask.png");
@@ -64,7 +66,9 @@ public abstract class SideMenuBaseForm extends Form {
         getToolbar().addMaterialCommandToSideMenu("  Dashboard", FontImage.MATERIAL_DASHBOARD,  e -> showOtherForm(res));
         getToolbar().addMaterialCommandToSideMenu("  tasks", FontImage.MATERIAL_TRENDING_UP,  e -> new tasksForm(this,res).show());
          getToolbar().addMaterialCommandToSideMenu("  Add tasks", FontImage.MATERIAL_ACCESS_TIME,  e -> new AddTaskForm(this).show());
-          getToolbar().addMaterialCommandToSideMenu("  formation", FontImage.MATERIAL_YARD,  e -> new tasksForm(this,res).show());
+          getToolbar().addMaterialCommandToSideMenu("  formation", FontImage.MATERIAL_YARD,  e ->  new ListFormationForm(UIManager.initFirstTheme("/theme")).show());
+                    getToolbar().addMaterialCommandToSideMenu("  centre", FontImage.MATERIAL_YARD,  e -> new AjoutCentreForm(UIManager.initFirstTheme("/theme")).show());
+
         getToolbar().addMaterialCommandToSideMenu("  Logout", FontImage.MATERIAL_EXIT_TO_APP,  e -> new LoginForm(res).show());
     }
     
