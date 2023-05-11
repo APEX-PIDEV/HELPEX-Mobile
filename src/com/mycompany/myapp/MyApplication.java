@@ -31,6 +31,7 @@ import java.io.IOException;
 import com.codename1.ui.layouts.BoxLayout;
 import com.codename1.io.NetworkEvent;
 import com.mycompany.myapp.gui.AjoutCentreForm;
+import com.mycompany.myapp.gui.AjoutPosteForm;
 import com.mycompany.myapp.gui.ListFormationForm;
 import com.mycompany.myapp.gui.LoginForm;
 import com.mycompany.myapp.gui.ProfileForm;
@@ -75,6 +76,8 @@ public class MyApplication {
        // new LoginForm(theme).show();
       // new StatsForm(theme).show();
         new ProfileForm(UIManager.initFirstTheme("/themeya")).show();
+            //    new AjoutPosteForm(theme).show();
+
           // new AjoutCentreForm(theme).show();
      //   new ListFormationForm(theme).show();
     }
