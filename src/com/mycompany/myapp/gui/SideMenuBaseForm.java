@@ -64,6 +64,7 @@ public abstract class SideMenuBaseForm extends Form {
         getToolbar().addMaterialCommandToSideMenu("  Dashboard", FontImage.MATERIAL_DASHBOARD,  e -> showOtherForm(res));
         getToolbar().addMaterialCommandToSideMenu("  tasks", FontImage.MATERIAL_TRENDING_UP,  e -> new tasksForm(this,res).show());
          getToolbar().addMaterialCommandToSideMenu("  Add tasks", FontImage.MATERIAL_ACCESS_TIME,  e -> new AddTaskForm(this).show());
+          getToolbar().addMaterialCommandToSideMenu("  formation", FontImage.MATERIAL_YARD,  e -> new tasksForm(this,res).show());
         getToolbar().addMaterialCommandToSideMenu("  Logout", FontImage.MATERIAL_EXIT_TO_APP,  e -> new LoginForm(res).show());
     }
     
