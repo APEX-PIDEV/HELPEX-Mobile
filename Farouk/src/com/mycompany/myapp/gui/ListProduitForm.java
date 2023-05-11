@@ -113,15 +113,14 @@ public class ListProduitForm extends BaseForm{
         mesListes.setUIID("SelectBar");
         RadioButton liste = RadioButton.createToggle("Autres", barGroup);
         liste.setUIID("SelectBar");
-        RadioButton partage = RadioButton.createToggle("produit", barGroup);
+        RadioButton partage = RadioButton.createToggle("Ajouter Produit", barGroup);
         partage.setUIID("SelectBar");
         Label arrow = new Label(res.getImage("news-tab-down-arrow.png"), "Container");
 
 
-        mesListes.addActionListener((e) -> {
-               InfiniteProgress ip = new InfiniteProgress();
-        final Dialog ipDlg = ip.showInifiniteBlocking();
-        
+        partage.addActionListener((e) -> {
+               AjoutProduitForm A = new AjoutProduitForm(res);
+               A.show();
         //  ListReclamationForm a = new ListReclamationForm(res);
           //  a.show();
             refreshTheme();

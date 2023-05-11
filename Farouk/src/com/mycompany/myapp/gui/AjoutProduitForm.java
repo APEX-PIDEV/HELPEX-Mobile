@@ -116,8 +116,9 @@ public class AjoutProduitForm extends BaseForm{
 
 
         mesListes.addActionListener((e) -> {
-               InfiniteProgress ip = new InfiniteProgress();
-        final Dialog ipDlg = ip.showInifiniteBlocking();
+               
+            ListProduitForm A = new ListProduitForm(res);
+            A.show();
         
         //  ListReclamationForm a = new ListReclamationForm(res);
           //  a.show();
