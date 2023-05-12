@@ -18,6 +18,7 @@
  */
 package com.mycompany.myapp.gui;
 import com.codename1.components.ToastBar;
+import com.codename1.io.Storage;
 import com.codename1.ui.Container;
 import com.codename1.ui.FontImage;
 import com.codename1.ui.Form;
@@ -74,8 +75,14 @@ public abstract class SideMenuBaseForm extends Form {
                                         getToolbar().addMaterialCommandToSideMenu("  organisations", FontImage.MATERIAL_YARD,  e -> new ListOrganisationForm(UIManager.initFirstTheme("/theme")).show());
                                         getToolbar().addMaterialCommandToSideMenu("add organisations", FontImage.MATERIAL_YARD,  e -> new AjoutOrganisationForm(UIManager.initFirstTheme("/theme")).show());
 
-        getToolbar().addMaterialCommandToSideMenu("  Logout", FontImage.MATERIAL_EXIT_TO_APP,  e -> new LoginForm(res).show());
-    }
+   getToolbar().addMaterialCommandToSideMenu("  Logout",FontImage.MATERIAL_EXIT_TO_APP, e -> { 
+new SignInForm(UIManager.initFirstTheme("/theme")).show();
+SessionManager.pref.clearAll();
+            Storage.getInstance().clearStorage();
+Storage.getInstance().clearCache();
+System.out.println(SessionManager.getEmail());
+});
+refreshTheme();    }
     
     protected abstract void showOtherForm(Resources res);
 }

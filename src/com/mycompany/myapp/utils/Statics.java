@@ -18,6 +18,7 @@ public class Statics {
             public static final String BASE_URLahmed="http://127.0.0.1:8000";
                 public static final String BASE_URLsalim="http://127.0.0.1:8000/poste/";
                     public static final String BASE_URLoussema="http://127.0.0.1:8000/";
+                    public static final String BASE_URLmariem="http://127.0.0.1:8000";
 
 
 

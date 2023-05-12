@@ -35,6 +35,7 @@ import com.mycompany.myapp.gui.AjoutPosteForm;
 import com.mycompany.myapp.gui.ListFormationForm;
 import com.mycompany.myapp.gui.LoginForm;
 import com.mycompany.myapp.gui.ProfileForm;
+import com.mycompany.myapp.gui.SignInForm;
 import com.mycompany.myapp.gui.StatsForm;
 
 /**
@@ -75,7 +76,8 @@ public class MyApplication {
     public void start() {
        // new LoginForm(theme).show();
       // new StatsForm(theme).show();
-        new ProfileForm(UIManager.initFirstTheme("/themeya")).show();
+      new SignInForm(theme).show();
+       // new ProfileForm(UIManager.initFirstTheme("/themeya")).show();
             //    new AjoutPosteForm(theme).show();
 
           // new AjoutCentreForm(theme).show();
